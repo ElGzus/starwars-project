@@ -1,6 +1,6 @@
 import { useEffect,useState } from "react"
 
-export const usePersonajes = (personajeFilter) => {
+export const usePersonajes = () => {
     const [personajes,setPersonajes] = useState([])
     
 useEffect( ( )=> {    
@@ -22,7 +22,7 @@ useEffect( ( )=> {
     //Ejecutamos la funcion declarada para obtener los datos
     fetchPersonajes();
 
-},[personajeFilter])
+},[])
 
     //Retornar (devolver) los datos guardados en mi estado
     return personajes

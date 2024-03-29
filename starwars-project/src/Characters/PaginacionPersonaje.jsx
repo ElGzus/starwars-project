@@ -1,12 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
+
 
 export default function PaginacionPersonaje({ previous, next, onPrevious, onNext }) {
+    const [index, setIndex] = useState(0);
+
     const handleAnterior = () => {
         onPrevious();
     }
 
     const handleSiguiente = () => {
+        setIndex(index => index + 1)
         onNext();
+       
     }
 
     return (

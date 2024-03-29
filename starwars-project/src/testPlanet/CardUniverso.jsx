@@ -1,6 +1,14 @@
 import React from 'react'
 
 export default function CardUniverso({planetas}) {
+    const extractIdFromUrl = (url) => {
+        const matches = url.match(/\/(\d+)\/$/);
+        if (matches && matches.length > 1) {
+            return matches[1];
+        }
+        return null;
+    }
+
   return (
     <>
     <div className='row'>

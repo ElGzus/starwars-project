@@ -31,7 +31,7 @@ export default function Personajes() {
     console.log(info)
     return (
         <>
-            <PaginacionPersonaje previous={info.previous} next={info.next} onPrevious={onPrevious} onNext={onNext}/>
+            <PaginacionPersonaje previous={info.previous} next={info.next} onPrevious={onPrevious} onNext={onNext} />
             <CardPersonaje personajes={personajes} />
         </>
         

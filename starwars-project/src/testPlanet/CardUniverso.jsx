@@ -2,7 +2,10 @@ import React from 'react'
 
 export default function CardUniverso({planetas}) {
   return (
+    <>
     <div className='row'>
+    <h5 className="title tc-yellow-400 color-black">Star Wars</h5>
+    <h5 className="title tc-yellow-400">Planets</h5>
         {planetas.length > 0 ? (
             planetas.map((planet, index) => (
                 <div className="col-md-4" key={index}>
@@ -21,5 +24,6 @@ export default function CardUniverso({planetas}) {
             <h1>Cargando...</h1>
         )}
     </div>
+    </>
   )
 }

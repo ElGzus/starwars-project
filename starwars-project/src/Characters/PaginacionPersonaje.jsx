@@ -1,8 +1,6 @@
-
 import React from 'react'
 
-export function Paginacion({ previous, next, onPrevious, onNext }) {
-  
+export default function PaginacionPersonaje({ previous, next, onPrevious, onNext }) {
     const handleAnterior = () => {
         onPrevious();
     }
@@ -32,5 +30,6 @@ export function Paginacion({ previous, next, onPrevious, onNext }) {
         </div>
     )
 }
+
 
 

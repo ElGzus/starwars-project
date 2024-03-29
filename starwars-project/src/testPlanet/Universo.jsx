@@ -6,7 +6,7 @@ export default function Universo() {
     const [planetas,setPlanetas] = useState([]);
     const [info, setInfo] = useState([]);
 
-    const url1 = 'https://swapi.dev/api/planets/';
+    const url1 = 'https://swapi.dev//planets/';
 
     const fetchPlanetas = async (url) => {
         let response = await fetch(url)

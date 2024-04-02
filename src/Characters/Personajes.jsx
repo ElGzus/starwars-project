@@ -78,7 +78,7 @@ export default function Personajes() {
     return (
         <>
             <div>
-                <nav className="navbar navbar-expand-lg mb-5">
+            <nav className="navbar navbar-expand-lg mb-5">
                     <div className="container-fluid">
                         <Link className="navbar-brand" to="/homepage">
                             Bienvenido {username || "Invitado"}
@@ -97,17 +97,17 @@ export default function Personajes() {
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li className="nav-item">
-                                    <Link className="nav-link" to="/characters">
+                                    <Link className="nav-link" to="/Personajes">
                                         Personajes
                                     </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link" to="/planets">
+                                    <Link className="nav-link" to="/Universo">
                                         Planetas
                                     </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link" to="/movies">
+                                    <Link className="nav-link" to="/Peliculas">
                                         Películas
                                     </Link>
                                 </li>

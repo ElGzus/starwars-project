@@ -78,9 +78,9 @@ export default function Personajes() {
             <div>
                 <nav className="navbar navbar-expand-lg mb-5">
                     <div className="container-fluid">
-                        <a className="navbar-brand" href="/src/principal/HomePage.jsx">
+                        <Link className="navbar-brand" to="/homepage">
                             Bienvenido {username || "Invitado"}
-                        </a>
+                        </Link>
                         <button
                             className="navbar-toggler"
                             type="button"
@@ -95,21 +95,20 @@ export default function Personajes() {
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li className="nav-item">
-                                    <a className="nav-link" aria-current="page" href="/src/Characters/Personajes.jsx">
+                                    <Link className="nav-link" to="/characters">
                                         Personajes
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="/src/testPlanet/Universo.jsx">
+                                    <Link className="nav-link" to="/planets">
                                         Planetas
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" aria-current="page" href="/src/Movies/Peliculas.jsx">
-                                        Peliculas
-                                    </a>
+                                    <Link className="nav-link" to="/movies">
+                                        Películas
+                                    </Link>
                                 </li>
-
                             </ul>
                             <button className="btn btn-danger" onClick={handleSignOut}>
                                 Cerrar sesión

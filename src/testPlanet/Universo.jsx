@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
+
 import CardUniverso from './CardUniverso';
 import PaginacionUniverso from './PaginacionUniverso';
 import { useNavigate } from "react-router";

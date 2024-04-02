@@ -17,10 +17,10 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route index path='/' element={<Welcome />} />
-          <Route path='/starwars-project/src/principal/HomePage.jsx' element={<Homepage />} />
-          <Route path='/starwars-project/src/Characters/Personajes.jsx' element={<Personajes />} />
-          <Route path='/starwars-project/src/testPlanet/Universo.jsx' element={<Universo />} />
-          <Route path='/starwars-project/src/Movies/Peliculas.jsx' element={<Peliculas />} />
+          <Route path='/src/principal/HomePage.jsx' element={<Homepage />} />
+          <Route path='/src/Characters/Personajes.jsx' element={<Personajes />} />
+          <Route path='/src/testPlanet/Universo.jsx' element={<Universo />} />
+          <Route path='/src/Movies/Peliculas.jsx' element={<Peliculas />} />
         </Routes>
       </BrowserRouter>
 

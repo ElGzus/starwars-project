@@ -35,7 +35,7 @@ export const Homepage = () => {
     <div className="homepage-body">
       <nav className="navbar navbar-expand-lg fixed-top">
         <div className="container-fluid">
-          <a className="navbar-brand" href="/starwars-project/src/principal/HomePage.jsx">
+          <a className="navbar-brand" href="/src/principal/HomePage.jsx">
             Bienvenido {username || "Invitado"}
           </a>
           <button
@@ -52,17 +52,17 @@ export const Homepage = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="/starwars-project/src/Characters/Personajes.jsx">
+                <a className="nav-link" aria-current="page" href="/src/Characters/Personajes.jsx">
                   Personajes
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/starwars-project/src/testPlanet/Universo.jsx">
+                <a className="nav-link" href="/src/testPlanet/Universo.jsx">
                   Planetas
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="/starwars-project/src/Movies/Peliculas.jsx">
+                <a className="nav-link" aria-current="page" href="/src/Movies/Peliculas.jsx">
                   Peliculas
                 </a>
               </li>

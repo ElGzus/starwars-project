@@ -24,7 +24,7 @@ export function Welcome() {
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (user) => {
       if (user) {
-        navigate("/starwars-project/src/principal/HomePage.jsx");
+        navigate("/src/principal/HomePage.jsx");
       }
     });
     return () => unsubscribe();
@@ -41,7 +41,7 @@ export function Welcome() {
   const handleSignIn = () => {
     signInWithEmailAndPassword(auth, email, password)
       .then(() => {
-        navigate("/starwars-project/src/principal/HomePage.jsx");
+        navigate("/src/principal/HomePage.jsx");
       })
       .catch((err) => alert(err.message));
   };
@@ -63,7 +63,7 @@ export function Welcome() {
       registerInformation.password
     )
       .then(() => {
-        navigate("/starwars-project/src/principal/HomePage.jsx");
+        navigate("/src/principal/HomePage.jsx");
       })
       .catch((err) => alert(err.message));
   };

@@ -80,7 +80,7 @@ export default function Personajes() {
             <div>
             <nav className="navbar navbar-expand-lg mb-5">
                     <div className="container-fluid">
-                        <Link className="navbar-brand" to="/homepage">
+                        <Link className="navbar-brand" to="/src/principal/HomePage.jsx">
                             Bienvenido {username || "Invitado"}
                         </Link>
                         <button
@@ -97,17 +97,17 @@ export default function Personajes() {
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li className="nav-item">
-                                    <Link className="nav-link" to="/Personajes">
+                                    <Link className="nav-link" to="/src/Characters/Personajes.jsx">
                                         Personajes
                                     </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link" to="/Universo">
+                                    <Link className="nav-link" to="/src/testPlanet/Universo.jsx">
                                         Planetas
                                     </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link" to="/Peliculas">
+                                    <Link className="nav-link" to="/src/Movies/Peliculas.jsx">
                                         Películas
                                     </Link>
                                 </li>
